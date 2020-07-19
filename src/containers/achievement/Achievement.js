@@ -1,9 +1,9 @@
 import React from 'react';
 import SimpleReactLightbox from 'simple-react-lightbox';
+import { Fade } from 'react-reveal';
 import './Achievement.css';
 import AchivementCard from '../../components/achievementCard/AchivementCard';
 import { achievementSection } from '../../portfolio';
-import { Fade } from 'react-reveal';
 
 export default function Achievement() {
   function openUrlInNewTab(url) {

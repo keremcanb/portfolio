@@ -12,12 +12,12 @@
     "react-dom": "^16.13.1",
     "react-easy-emoji": "^1.4.0",
     "react-headroom": "^3.0.0",
-    "react-modal-video": "^1.2.5",
+    "react-image-lightbox": "^5.1.1",
+    "react-modal-image": "^2.5.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.1",
     "react-scrollchor": "^6.0.0",
-    "react-twitter-embed": "^3.0.3",
-    "simple-react-lightbox": "^3.2.3-3"
+    "react-twitter-embed": "^3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

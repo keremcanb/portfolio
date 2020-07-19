@@ -1,7 +1,7 @@
 import React from 'react';
-import { SRLWrapper } from 'simple-react-lightbox';
+import ModalImage from 'react-modal-image';
 
-export default function AchivementCard({ cardInfo }) {
+const AchivementCard = ({ cardInfo }) => {
   function openUrlInNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
@@ -10,15 +10,12 @@ export default function AchivementCard({ cardInfo }) {
   return (
     <div className='certificate-card'>
       <div className='certificate-image-div'>
-        <SRLWrapper>
-          <a href={cardInfo.image}>
-            <img
-              src={cardInfo.thumbnail}
-              alt='Project'
-              className='card-image'
-            ></img>
-          </a>
-        </SRLWrapper>
+        <ModalImage
+          small={cardInfo.thumbnail}
+          large={cardInfo.image}
+          alt='Hello World!'
+          className='card-image'
+        />
       </div>
       <div className='certificate-detail-div'>
         <h5 className='card-title'>{cardInfo.title}</h5>
@@ -31,4 +28,6 @@ export default function AchivementCard({ cardInfo }) {
       </div>
     </div>
   );
-}
+};
+
+export default AchivementCard;
