@@ -5,7 +5,7 @@ import './Header.css';
 import { greeting, workExperiences } from '../../portfolio';
 
 const Header = () => {
-  const exp = workExperiences.viewExperiences;
+  // const exp = workExperiences.viewExperiences;
 
   return (
     // <Headroom>
@@ -15,10 +15,12 @@ const Header = () => {
         {/* <span className='logo-name'>{greeting.username}</span> */}
         <span className='grey-color'>/&gt;</span>
       </a>
+
       <input className='menu-btn' type='checkbox' id='menu-btn' />
       <label className='menu-icon' htmlFor='menu-btn'>
         <span className='navicon'></span>
       </label>
+
       <ul className='menu'>
         <li>
           <Scrollchor to='skills' className='nav-link'>
@@ -35,7 +37,7 @@ const Header = () => {
         </li> */}
         <li>
           <Scrollchor to='achievements' className='nav-link'>
-            Works
+            Projects
           </Scrollchor>
         </li>
         {/* <li>

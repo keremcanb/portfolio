@@ -21,7 +21,7 @@ const Greeting = () => {
               <p className='greeting-text-p subTitle'>
                 <i>{greeting.subTitle}</i>
               </p>
-              <SocialMedia />
+              {/* <SocialMedia /> */}
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />

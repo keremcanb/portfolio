@@ -194,39 +194,36 @@ const bigProjects = {
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-  title: emoji('Achievements And Certifications 🏆 '),
-  subtitle:
-    'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
-
+  title: 'Projects',
+  subtitle: '',
   achivementsCards: [
     {
       title: 'Thailand Travel Guide Mobile App',
-      subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
+      subtitle: 'A basic Thailand travel app built with React Native Expo.',
       image: require('./assets/images/tgr-app.jpg'),
       footerLink: [
         {
-          name: 'Certification',
+          name: 'Google Play',
           url:
             'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
         },
         {
-          name: 'Award Letter',
+          name: 'Github',
           url:
             'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
         },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
-        },
+        // {
+        //   name: 'Google Code-in Blog',
+        //   url:
+        //     'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+        // },
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: 'Thailand Travel Guide Back-end',
       subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+        'Back-end & admin panel that I built with MERN stack for the Thailand Travel Guide Mobile App.',
+      image: require('./assets/images/tgr-app.jpg'),
       footerLink: [
         {
           name: 'View Google Assistant Action',
@@ -237,9 +234,10 @@ const achievementSection = {
     },
 
     {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      title: 'Thailand Travel Guide Web Site',
+      subtitle:
+        'Most detailed Thailand travel guide in Turkish language. I developed the site with Wordpress, wrote all the content, did SEO.',
+      image: require('./assets/images/tgr-app.jpg'),
       footerLink: [
         { name: 'Certification', url: '' },
         {
@@ -306,11 +304,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji('Contact Me ☎️'),
-  subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  email_address: 'saadpasta70@gmail.com',
+  title: 'Contact',
+  subtitle: '',
+  number: '',
+  email_address: '',
 };
 
 //Twitter Section
