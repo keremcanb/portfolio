@@ -8,9 +8,9 @@ import { Fade } from 'react-reveal';
 
 const Greeting = () => {
   return (
-    <Fade bottom duration={1500} distance='40px'>
-      <div className='greet-main' id='greeting'>
-        <div className='greeting-main'>
+    <div className='greet-main' id='greeting'>
+      <div className='greeting-main'>
+        <Fade bottom duration={1500} distance='40px'>
           <div className='greeting-text-div'>
             <div>
               <h1 className='greeting-text'>
@@ -28,15 +28,17 @@ const Greeting = () => {
             </div> */}
             </div>
           </div>
+        </Fade>
+        <Fade top duration={1500} distance='40px'>
           <div className='greeting-image-div'>
             <img
               alt='saad sitting on table'
               src={require('../../assets/images/starry_window.svg')}
             ></img>
           </div>
-        </div>
+        </Fade>
       </div>
-    </Fade>
+    </div>
   );
 };
 

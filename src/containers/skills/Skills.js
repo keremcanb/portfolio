@@ -7,6 +7,7 @@ import { Fade } from 'react-reveal';
 const Skills = () => {
   return (
     <div className='main' id='skills'>
+      <h1>Skills</h1>
       <div className='skills-main-div'>
         <Fade left duration={1500}>
           <div className='skills-image-div'>
@@ -23,10 +24,10 @@ const Skills = () => {
           {/* <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p> */}
           <SoftwareSkill />
           {/* <div>
-            {skillsSection.skills.map(skills => {
-              return <p className="subTitle skills-text">{skills}</p>;
-            })}
-          </div> */}
+              {skillsSection.skills.map(skills => {
+                return <p className="subTitle skills-text">{skills}</p>;
+              })}
+            </div> */}
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@
   margin-top: 4rem;
 }
 .greet-main {
-  width: 80%;
+  width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -34,17 +34,20 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
+  float: left;
 }
 
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  float: left;
 }
 
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
 }
+
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -80,7 +83,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 40px;
   }
   .greeting-text-p {
     font-size: 20px;

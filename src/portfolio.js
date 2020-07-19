@@ -99,6 +99,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-git',
     },
     {
+      skillName: 'SEO',
+      fontAwesomeClassname: 'fa fa-sitemap',
+    },
+    {
       skillName: 'WORDPRESS',
       fontAwesomeClassname: 'fab fa-wordpress',
     },

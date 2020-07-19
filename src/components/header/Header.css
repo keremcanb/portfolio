@@ -163,4 +163,13 @@
   .header {
     font-size: 12px;
   }
+  .header .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header .logo {
+    display: none;
+  }
 }
