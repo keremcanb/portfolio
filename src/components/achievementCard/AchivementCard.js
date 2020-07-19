@@ -13,8 +13,9 @@ const AchivementCard = ({ cardInfo }) => {
         <ModalImage
           small={cardInfo.thumbnail}
           large={cardInfo.image}
-          alt='Hello World!'
+          alt='Projects'
           className='card-image'
+          hideDownload='false'
         />
       </div>
       <div className='certificate-detail-div'>
