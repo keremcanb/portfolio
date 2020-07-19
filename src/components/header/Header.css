@@ -1,7 +1,7 @@
 /* header */
 
 .header {
-  background-color: #fff;
+  background-color: #403e57;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -14,22 +14,22 @@
   overflow: hidden;
 }
 .grey-color {
-  color: #868e96;
+  color: #403e57;
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  color: black;
+  padding: 15px 15px;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 .header li a:after {
   display: block;
   content: '';
-  border-bottom: solid 3px #000000;
+  border-bottom: solid 3px rgb(255, 255, 255);
   transform: scaleX(0);
-  transition: transform 350ms ease-in-out;
+  transition: transform 400ms ease-in-out;
   margin-top: 10px;
 }
 

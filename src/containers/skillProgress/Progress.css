@@ -1,4 +1,4 @@
-.meter { 
+.meter {
     height: 20px;
     position: relative;
     background: rgb(243, 239, 239);
@@ -66,4 +66,3 @@
         order: 2;
     }
 }
-  

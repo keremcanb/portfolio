@@ -1,7 +1,11 @@
+h2 {
+  margin-top: 0;
+}
+
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
