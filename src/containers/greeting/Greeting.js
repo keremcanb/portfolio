@@ -14,8 +14,7 @@ const Greeting = () => {
           <div className='greeting-text-div'>
             <div>
               <h1 className='greeting-text'>
-                {' '}
-                {greeting.title}{' '}
+                {greeting.title}
                 {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>
               <p className='greeting-text-p subTitle'>

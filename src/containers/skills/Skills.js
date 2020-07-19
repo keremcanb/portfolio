@@ -7,7 +7,6 @@ import { Fade } from 'react-reveal';
 const Skills = () => {
   return (
     <div className='main' id='skills'>
-      <h1>Skills</h1>
       <div className='skills-main-div'>
         <Fade left duration={1500}>
           <div className='skills-image-div'>
@@ -18,6 +17,7 @@ const Skills = () => {
           </div>
         </Fade>
         <div className='skills-text-div'>
+          <h1>Skills</h1>
           {/* <Fade right duration={1500}> */}
           {/* <h1 className='skills-heading'>{skillsSection.title} </h1> */}
           {/* </Fade> */}
