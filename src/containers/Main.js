@@ -20,11 +20,11 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <StackProgress />
-        <WorkExperience />
-        <Projects />
-        <StartupProject />
+        {/* <WorkExperience /> */}
+        {/* <Projects /> */}
+        {/* <StartupProject /> */}
         <Achievement />
-        <Blogs />
+        {/* <Blogs /> */}
         <Profile />
         <Footer />
         <Top />

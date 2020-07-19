@@ -25,20 +25,22 @@ const Header = () => {
             Skills
           </Scrollchor>
         </li>
-        {exp === true && (
+        {/* {exp === true && (
           <li>
             <a href='#experience'>Works</a>
           </li>
-        )}
-        <li>
+        )} */}
+        {/* <li>
           <a href='#projects'>Projects</a>
-        </li>
+        </li> */}
         <li>
-          <a href='#achievements'>Achievements</a>
+          <Scrollchor to='achievements' className='nav-link'>
+            Works
+          </Scrollchor>
         </li>
-        <li>
+        {/* <li>
           <a href='#blogs'>Blogs</a>
-        </li>
+        </li> */}
         <li>
           <Scrollchor to='contact' className='nav-link'>
             Contact

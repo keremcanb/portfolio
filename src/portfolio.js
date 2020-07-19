@@ -137,7 +137,7 @@ const workExperiences = {
     {
       role: 'Software Engineer',
       company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
+      companylogo: require('./assets/images/tgr-app.jpg'),
       date: 'June 2018 – Present',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -181,7 +181,7 @@ const bigProjects = {
   subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
+      image: require('./assets/images/tgr-app.jpg'),
       link: 'http://saayahealth.com/',
     },
     {
@@ -200,10 +200,10 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'Thailand Travel Guide Mobile App',
       subtitle:
         'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+      image: require('./assets/images/tgr-app.jpg'),
       footerLink: [
         {
           name: 'Certification',
