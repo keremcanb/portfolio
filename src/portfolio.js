@@ -141,7 +141,7 @@ const workExperiences = {
     {
       role: 'Software Engineer',
       company: 'Facebook',
-      companylogo: require('./assets/images/tgr-app.jpg'),
+      // companylogo: require('./assets/images/tgr-app.jpg'),
       date: 'June 2018 – Present',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -185,7 +185,7 @@ const bigProjects = {
   subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
-      image: require('./assets/images/tgr-app.jpg'),
+      // image: require('./assets/images/tgr-app.jpg'),
       link: 'http://saayahealth.com/',
     },
     {
@@ -204,17 +204,17 @@ const achievementSection = {
     {
       title: 'Thailand Travel Guide Mobile App',
       subtitle: 'A basic Thailand travel app built with React Native Expo.',
-      image: require('./assets/images/tgr-app.jpg'),
+      image: require('./assets/images/tgr-app.png'),
+      thumbnail: require('./assets/images/tgr-app.png'),
       footerLink: [
         {
           name: 'Google Play',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
+            'https://play.google.com/store/apps/details?id=com.gezginrocker.tgr',
         },
         {
           name: 'Github',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+          url: 'https://github.com/keremcanb/tgr-app',
         },
         // {
         //   name: 'Google Code-in Blog',
@@ -227,12 +227,12 @@ const achievementSection = {
       title: 'Thailand Travel Guide Back-end',
       subtitle:
         'Back-end & admin panel that I built with MERN stack for the Thailand Travel Guide Mobile App.',
-      image: require('./assets/images/tgr-app.jpg'),
+      image: require('./assets/images/tgr-admin.png'),
+      thumbnail: require('./assets/images/tgr-admin-tn.png'),
       footerLink: [
         {
-          name: 'View Google Assistant Action',
-          url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+          name: 'Github',
+          url: 'https://github.com/keremcanb/tgr-admin',
         },
       ],
     },
@@ -241,12 +241,12 @@ const achievementSection = {
       title: 'Thailand Travel Guide Web Site',
       subtitle:
         'Most detailed Thailand travel guide in Turkish language. I developed the site with Wordpress, wrote all the content, did SEO.',
-      image: require('./assets/images/tgr-app.jpg'),
+      image: require('./assets/images/tgr-web.png'),
+      thumbnail: require('./assets/images/tgr-web-tn.png'),
       footerLink: [
-        { name: 'Certification', url: '' },
         {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
+          name: 'Web',
+          url: 'http://www.taylandgezi.com/',
         },
       ],
     },

@@ -17,7 +17,9 @@ const Skills = () => {
           </div>
         </Fade>
         <div className='skills-text-div'>
-          <h1>Skills</h1>
+          <Fade bottom duration={1500}>
+            <h1>Skills</h1>
+          </Fade>
           {/* <Fade right duration={1500}> */}
           {/* <h1 className='skills-heading'>{skillsSection.title} </h1> */}
           {/* </Fade> */}

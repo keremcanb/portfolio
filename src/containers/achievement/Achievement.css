@@ -11,14 +11,18 @@
   margin-bottom: 50px;
 }
 .card-image {
-  height: 400px;
+  /* height: 400px; */
   width: 250px;
+  border: 2px solid rgb(131, 126, 126);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .card-title {
   color: black;
-  font-size: 30px;
-  margin: 0px;
+  font-size: 25px;
+  /* margin: 0px; */
+  margin-top: 10px;
   font-weight: 400;
   line-height: normal;
 }
