@@ -3,12 +3,12 @@ import { Fade } from 'react-reveal';
 import './SoftwareSkill.css';
 import { skillsSection } from '../../portfolio';
 
-export default function SoftwareSkill() {
+const SoftwareSkill = () => {
   return (
     <div>
       <div className='software-skills-main-div'>
         <Fade right duration={1500}>
-          <h2>Front-end</h2>
+          <h3>Front-end</h3>
           <ul className='dev-icons'>
             {skillsSection.fesoftwareSkills.map((skills) => {
               return (
@@ -21,7 +21,7 @@ export default function SoftwareSkill() {
           </ul>
         </Fade>
         <Fade left duration={1500}>
-          <h2>Back-end</h2>
+          <h3>Back-end</h3>
           <ul className='dev-icons'>
             {skillsSection.besoftwareSkills.map((skills) => {
               return (
@@ -34,7 +34,7 @@ export default function SoftwareSkill() {
           </ul>
         </Fade>
         <Fade right duration={1500}>
-          <h2>General</h2>
+          <h3>General</h3>
           <ul className='dev-icons'>
             {skillsSection.gsoftwareSkills.map((skills) => {
               return (
@@ -49,4 +49,6 @@ export default function SoftwareSkill() {
       </div>
     </div>
   );
-}
+};
+
+export default SoftwareSkill;

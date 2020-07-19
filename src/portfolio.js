@@ -16,11 +16,12 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
+  github: 'https://github.com/keremcanb',
+  linkedin:
+    'https://www.linkedin.com/in/keremcan-b%C3%BCy%C3%BCkta%C5%9Fk%C4%B1n-a90882158/',
+  gmail: 'keremcan@gmail.com',
+  // gitlab: 'https://gitlab.com/saadpasta',
+  // facebook: 'https://www.facebook.com/saad.pasta7',
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -44,65 +45,65 @@ https://fontawesome.com/icons?d=gallery */
 
   fesoftwareSkills: [
     {
-      skillName: 'html-5',
+      skillName: 'HTML5',
       fontAwesomeClassname: 'fab fa-html5',
     },
     {
-      skillName: 'css3',
+      skillName: 'CSS3',
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
     {
-      skillName: 'sass',
+      skillName: 'SASS',
       fontAwesomeClassname: 'fab fa-sass',
     },
     {
-      skillName: 'JavaScript',
+      skillName: 'JAVASCRIPT',
       fontAwesomeClassname: 'fab fa-js',
     },
     {
-      skillName: 'reactjs',
+      skillName: 'REACT',
       fontAwesomeClassname: 'fab fa-react',
     },
     {
-      skillName: 'react native',
+      skillName: 'REACT NATIVE',
       fontAwesomeClassname: 'fab fa-react',
     },
   ],
 
   besoftwareSkills: [
     {
-      skillName: 'nodejs',
+      skillName: 'NODE.JS',
       fontAwesomeClassname: 'fab fa-node',
     },
     {
-      skillName: 'mongodb',
+      skillName: 'MONGODB',
       fontAwesomeClassname: 'fas fa-database',
     },
     {
-      skillName: 'sql-database',
+      skillName: 'MYSQL',
       fontAwesomeClassname: 'fas fa-database',
     },
     {
-      skillName: 'docker',
+      skillName: 'DOCKER',
       fontAwesomeClassname: 'fab fa-docker',
     },
   ],
 
   gsoftwareSkills: [
     {
-      skillName: 'npm',
+      skillName: 'NPM',
       fontAwesomeClassname: 'fab fa-npm',
     },
     {
-      skillName: 'mongodb',
+      skillName: 'GIT',
       fontAwesomeClassname: 'fab fa-git',
     },
     {
-      skillName: 'sql-database',
+      skillName: 'WORDPRESS',
       fontAwesomeClassname: 'fab fa-wordpress',
     },
     {
-      skillName: 'sql-database',
+      skillName: 'PHOTOSHOP',
       fontAwesomeClassname: 'fab fa-adobe',
     },
   ],
@@ -114,16 +115,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      Stack: 'Front-end Development', //Insert stack or technology you have experience in
+      progressPercentage: '70%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
-      progressPercentage: '70%',
+      Stack: 'Back-end Development',
+      progressPercentage: '40%',
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60%',
+      Stack: 'UI/UX Design',
+      progressPercentage: '30%',
     },
   ],
 };

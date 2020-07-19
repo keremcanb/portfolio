@@ -4,7 +4,7 @@ import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill';
 import { skillsSection } from '../../portfolio';
 import { Fade } from 'react-reveal';
 
-export default function Skills() {
+const Skills = () => {
   return (
     <div className='main' id='skills'>
       <div className='skills-main-div'>
@@ -18,7 +18,7 @@ export default function Skills() {
         </Fade>
         <div className='skills-text-div'>
           {/* <Fade right duration={1500}> */}
-            {/* <h1 className='skills-heading'>{skillsSection.title} </h1> */}
+          {/* <h1 className='skills-heading'>{skillsSection.title} </h1> */}
           {/* </Fade> */}
           {/* <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p> */}
           <SoftwareSkill />
@@ -31,4 +31,6 @@ export default function Skills() {
       </div>
     </div>
   );
-}
+};
+
+export default Skills;

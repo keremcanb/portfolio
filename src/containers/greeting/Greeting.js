@@ -6,7 +6,7 @@ import { greeting } from '../../portfolio';
 import { Fade } from 'react-reveal';
 // import emoji from "react-easy-emoji";
 
-export default function Greeting() {
+const Greeting = () => {
   return (
     <Fade bottom duration={1500} distance='40px'>
       <div className='greet-main' id='greeting'>
@@ -38,4 +38,6 @@ export default function Greeting() {
       </div>
     </Fade>
   );
-}
+};
+
+export default Greeting;
