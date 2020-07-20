@@ -86,6 +86,9 @@
     font-size: 20px;
     float: left;
   }
+  .greet-main {
+    height: 80vh;
+  }
 }
 @media (max-width: 768px) {
   /* .button-greeting-div {
