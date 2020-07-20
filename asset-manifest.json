@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.edd1e8f7.chunk.css",
-    "main.js": "/portfolio/static/js/main.2dc45093.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2dc45093.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.56824686.chunk.css",
+    "main.js": "/portfolio/static/js/main.801b107d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.801b107d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.953489a6.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.953489a6.js.map",
     "static/js/2.9d2b622f.chunk.js": "/portfolio/static/js/2.9d2b622f.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/4.8bd2106a.chunk.js": "/portfolio/static/js/4.8bd2106a.chunk.js",
     "static/js/4.8bd2106a.chunk.js.map": "/portfolio/static/js/4.8bd2106a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ce2367b8fb22fce3ee8a1542bb221b79.js": "/portfolio/precache-manifest.ce2367b8fb22fce3ee8a1542bb221b79.js",
+    "precache-manifest.1fe9fc83b602fa044e9bd124412658e5.js": "/portfolio/precache-manifest.1fe9fc83b602fa044e9bd124412658e5.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.f9898e9a.chunk.css.map": "/portfolio/static/css/3.f9898e9a.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/portfolio/static/css/4.54df59d4.chunk.css.map",
-    "static/css/main.edd1e8f7.chunk.css.map": "/portfolio/static/css/main.edd1e8f7.chunk.css.map",
+    "static/css/main.56824686.chunk.css.map": "/portfolio/static/css/main.56824686.chunk.css.map",
     "static/js/2.9d2b622f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9d2b622f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/airbnbLogo.png": "/portfolio/static/media/airbnbLogo.c59720d6.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.953489a6.js",
     "static/js/2.9d2b622f.chunk.js",
-    "static/css/main.edd1e8f7.chunk.css",
-    "static/js/main.2dc45093.chunk.js"
+    "static/css/main.56824686.chunk.css",
+    "static/js/main.801b107d.chunk.js"
   ]
 }
