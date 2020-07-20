@@ -12,7 +12,7 @@
 }
 .card-image {
   /* height: 400px; */
-  width: 250px;
+  width: 200px;
   border: 2px solid rgb(131, 126, 126);
   border-radius: 5px;
   padding: 10px;
@@ -84,5 +84,8 @@
     font-size: 16px;
     line-height: normal;
     text-align: center;
+  }
+  .card-image {
+    width: 150px;
   }
 }

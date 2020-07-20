@@ -1,12 +1,3 @@
-h1 {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 .skills-main-div {
   display: flex;
 }

@@ -4,13 +4,11 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
-
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
-  height: 80vh;
 }
 
 .gretting-main {
@@ -27,30 +25,25 @@
   flex: 1;
   margin-bottom: 30px;
 }
-
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
 }
 
 .greeting-text {
-  font-size: 50px;
+  font-size: 70px;
   line-height: 1.1;
-  float: left;
 }
 
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
-  float: left;
-  color: #868e96;
 }
 
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
 }
-
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -84,34 +77,29 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px) {
+@media (max-width: 1380px) and (min-width: 768px) {
   .greeting-text {
     font-size: 40px;
     float: left;
   }
-
   .greeting-text-p {
     font-size: 20px;
     float: left;
   }
 }
-
 @media (max-width: 768px) {
-  .button-greeting-div {
+  /* .button-greeting-div {
     justify-content: space-around;
-  }
-
+  } */
   .greeting-text {
     font-size: 30px;
-    float: left;
+    text-align: center;
   }
-
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
-    float: left;
+    text-align: center;
   }
-
   .greeting-main {
     display: block;
   }
