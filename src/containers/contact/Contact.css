@@ -9,6 +9,7 @@
 .contact-title {
   font-size: 65px;
   font-weight: 400;
+  text-align: center;
 }
 
 .contact-detail,
@@ -42,8 +43,8 @@
 .contact-image-div > img {
   max-width: 100%;
   height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  /* margin-left: 1.5rem; */
+  /* margin-top: -4rem; */
 }
 
 /* Media Query */

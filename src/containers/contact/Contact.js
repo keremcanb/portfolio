@@ -28,7 +28,7 @@ export default function Contact() {
           <div className='contact-image-div'>
             <img
               alt='Saad Working'
-              src={require('../../assets/images/contactMail.webp')}
+              src={require('../../assets/images/manage_chats.svg')}
             ></img>
           </div>
         </div>

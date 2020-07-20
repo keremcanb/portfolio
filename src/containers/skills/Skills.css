@@ -11,7 +11,7 @@
 }
 
 .skills-image-div > img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -19,15 +19,16 @@
   font-size: 56px;
   font-weight: 400;
   text-align: center;
-  margin-top: 0;
 }
 
 /* Media Query */
-/* @media (max-width: 1380px) {
+
+@media (max-width: 1380px) and (min-width: 768px) {
   .skills-heading {
-    font-size: 40px;
+    /* font-size: 40px; */
+    margin-top: 0px;
   }
-} */
+}
 
 @media (max-width: 768px) {
   .skills-heading {

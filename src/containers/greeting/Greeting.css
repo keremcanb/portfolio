@@ -9,6 +9,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  height: 80vh;
 }
 
 .gretting-main {
@@ -85,9 +86,6 @@
   .greeting-text-p {
     font-size: 20px;
     float: left;
-  }
-  .greet-main {
-    height: 80vh;
   }
 }
 @media (max-width: 768px) {
