@@ -79,7 +79,7 @@
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   padding: 28px 20px;
   position: relative;
@@ -170,6 +170,7 @@
 
 @media (max-width: 500px) {
   .header .logo {
-    display: none;
+    margin-top: 15px;
+    /* display: none; */
   }
 }

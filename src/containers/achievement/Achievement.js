@@ -1,5 +1,4 @@
 import React from 'react';
-import SimpleReactLightbox from 'simple-react-lightbox';
 import { Fade } from 'react-reveal';
 import './Achievement.css';
 import AchivementCard from '../../components/achievementCard/AchivementCard';
@@ -25,17 +24,15 @@ export default function Achievement() {
           <div className='achievement-cards-div'>
             {achievementSection.achivementsCards.map((card) => {
               return (
-                <SimpleReactLightbox>
-                  <AchivementCard
-                    cardInfo={{
-                      title: card.title,
-                      description: card.subtitle,
-                      thumbnail: card.thumbnail,
-                      image: card.image,
-                      footer: card.footerLink,
-                    }}
-                  />
-                </SimpleReactLightbox>
+                <AchivementCard
+                  cardInfo={{
+                    title: card.title,
+                    description: card.subtitle,
+                    thumbnail: card.thumbnail,
+                    image: card.image,
+                    footer: card.footerLink,
+                  }}
+                />
               );
             })}
           </div>

@@ -47,10 +47,10 @@
     .skills-bar {
         line-height: 4rem;
     }
-    .skills-image {
+    /* .skills-image {
         display: none;
         order: 2;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
@@ -61,8 +61,8 @@
         line-height: 3rem;
         margin: 20px;
     }
-    .skills-image {
+    /* .skills-image {
         display: none;
         order: 2;
-    }
+    } */
 }
