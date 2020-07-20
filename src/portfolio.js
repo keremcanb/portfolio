@@ -8,7 +8,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: '',
   title: 'Keremcan Büyüktaşkın',
-  subTitle: 'Front-end Developer',
+  subTitle: 'Front-End Developer',
   resumeLink:
     'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
 };
@@ -87,6 +87,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'DOCKER',
       fontAwesomeClassname: 'fab fa-docker',
     },
+    {
+      skillName: 'REST API',
+      fontAwesomeClassname: 'fa fa-server',
+    },
   ],
 
   gsoftwareSkills: [
@@ -97,6 +101,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'GIT',
       fontAwesomeClassname: 'fab fa-git',
+    },
+    {
+      skillName: 'CLI',
+      fontAwesomeClassname: 'fa fa-terminal',
     },
     {
       skillName: 'SEO',
@@ -119,11 +127,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Front-end Development', //Insert stack or technology you have experience in
+      Stack: 'Front-End Development', //Insert stack or technology you have experience in
       progressPercentage: '70%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Back-end Development',
+      Stack: 'Back-End Development',
       progressPercentage: '40%',
     },
     {
@@ -224,9 +232,9 @@ const achievementSection = {
       ],
     },
     {
-      title: 'Thailand Travel Guide Back-end',
+      title: 'Thailand Travel Guide Back-End',
       subtitle:
-        'Back-end & admin panel that I built with MERN stack for the Thailand Travel Guide Mobile App.',
+        'Back-End & admin panel that I built with MERN stack for the Thailand Travel Guide Mobile App.',
       image: require('./assets/images/tgr-admin.png'),
       thumbnail: require('./assets/images/tgr-admin-tn.png'),
       footerLink: [

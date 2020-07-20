@@ -8,7 +8,7 @@ const SoftwareSkill = () => {
     <div>
       <div className='software-skills-main-div'>
         <Fade right duration={1500}>
-          <h3>Front-end</h3>
+          <h3>Front-End</h3>
           <ul className='dev-icons'>
             {skillsSection.fesoftwareSkills.map((skills) => {
               return (
@@ -21,7 +21,7 @@ const SoftwareSkill = () => {
           </ul>
         </Fade>
         <Fade left duration={1500}>
-          <h3>Back-end</h3>
+          <h3>Back-End</h3>
           <ul className='dev-icons'>
             {skillsSection.besoftwareSkills.map((skills) => {
               return (
