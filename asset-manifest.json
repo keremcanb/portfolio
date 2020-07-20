@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4930c19c.chunk.css",
-    "main.js": "/portfolio/static/js/main.00cd5240.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.00cd5240.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.069b67e1.chunk.css",
+    "main.js": "/portfolio/static/js/main.5c728006.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5c728006.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.953489a6.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.953489a6.js.map",
     "static/js/2.9d2b622f.chunk.js": "/portfolio/static/js/2.9d2b622f.chunk.js",
@@ -14,17 +14,17 @@
     "static/js/4.8bd2106a.chunk.js": "/portfolio/static/js/4.8bd2106a.chunk.js",
     "static/js/4.8bd2106a.chunk.js.map": "/portfolio/static/js/4.8bd2106a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.52c8dd491134aefc243f1bcdfbb8673a.js": "/portfolio/precache-manifest.52c8dd491134aefc243f1bcdfbb8673a.js",
+    "precache-manifest.f057e5ad19356339a0a5e190b15e1337.js": "/portfolio/precache-manifest.f057e5ad19356339a0a5e190b15e1337.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.f9898e9a.chunk.css.map": "/portfolio/static/css/3.f9898e9a.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/portfolio/static/css/4.54df59d4.chunk.css.map",
-    "static/css/main.4930c19c.chunk.css.map": "/portfolio/static/css/main.4930c19c.chunk.css.map",
+    "static/css/main.069b67e1.chunk.css.map": "/portfolio/static/css/main.069b67e1.chunk.css.map",
     "static/js/2.9d2b622f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9d2b622f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/accept_tasks.svg": "/portfolio/static/media/accept_tasks.7c7e2c81.svg",
     "static/media/airbnbLogo.png": "/portfolio/static/media/airbnbLogo.c59720d6.png",
     "static/media/code_inspection.svg": "/portfolio/static/media/code_inspection.04cff595.svg",
-    "static/media/contactMail.webp": "/portfolio/static/media/contactMail.68e84138.webp",
+    "static/media/manage_chats.svg": "/portfolio/static/media/manage_chats.c89de657.svg",
     "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.829ad0a1.webp",
     "static/media/quoraLogo.png": "/portfolio/static/media/quoraLogo.4b2938b9.png",
     "static/media/starry_window.svg": "/portfolio/static/media/starry_window.7646f2a4.svg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.953489a6.js",
     "static/js/2.9d2b622f.chunk.js",
-    "static/css/main.4930c19c.chunk.css",
-    "static/js/main.00cd5240.chunk.js"
+    "static/css/main.069b67e1.chunk.css",
+    "static/js/main.5c728006.chunk.js"
   ]
 }
