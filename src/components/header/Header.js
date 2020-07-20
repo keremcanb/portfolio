@@ -11,9 +11,10 @@ const Header = () => {
     // <Headroom>
     <header className='header'>
       <a href='/' className='logo'>
-        <span className='grey-color'> &lt;</span>
-        {/* <span className='logo-name'>{greeting.username}</span> */}
-        <span className='grey-color'>/&gt;</span>
+        <i className='fa fa-code' aria-hidden='true'></i>
+        {/* <span className='grey-color'> &lt;</span>
+        <span className='logo-name'>{greeting.username}</span>
+        <span className='grey-color'>/&gt;</span> */}
       </a>
 
       <input className='menu-btn' type='checkbox' id='menu-btn' />

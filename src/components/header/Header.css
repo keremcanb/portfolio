@@ -1,5 +1,9 @@
 /* header */
 
+.fa {
+  color: white;
+}
+
 .header {
   background-color: #403e57;
   max-width: 100%;
