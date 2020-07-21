@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d09baf43bc67f0ca31262a7ad428570",
+    "revision": "d913e39e5c44260aea4012c607c09171",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "6c2d9a8c22c506dacf56",
-    "url": "/portfolio/static/css/main.f3984b89.chunk.css"
+    "revision": "844f2b56a36417138ac6",
+    "url": "/portfolio/static/css/main.fa0a4734.chunk.css"
   },
   {
-    "revision": "a9f800faf0dbe4af3276",
-    "url": "/portfolio/static/js/2.bfd0eb50.chunk.js"
+    "revision": "5155549212fcf640f523",
+    "url": "/portfolio/static/js/2.6ee5e561.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.bfd0eb50.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.6ee5e561.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c2d9a8c22c506dacf56",
-    "url": "/portfolio/static/js/main.ca5c457e.chunk.js"
+    "revision": "844f2b56a36417138ac6",
+    "url": "/portfolio/static/js/main.d05832a5.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,24 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/accept_tasks.7c7e2c81.svg"
   },
   {
-    "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
-    "url": "/portfolio/static/media/airbnbLogo.c59720d6.png"
-  },
-  {
     "revision": "04cff5950adf49772432852e0171a800",
     "url": "/portfolio/static/media/code_inspection.04cff595.svg"
   },
   {
     "revision": "c89de657b02ef66b1f8347059ff504d2",
     "url": "/portfolio/static/media/manage_chats.c89de657.svg"
-  },
-  {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/portfolio/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
-    "url": "/portfolio/static/media/quoraLogo.4b2938b9.png"
   },
   {
     "revision": "7646f2a4b74fbbb2e0d39ccdf1a4a22b",
