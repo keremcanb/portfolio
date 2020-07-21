@@ -139,7 +139,7 @@ const achievementSection = {
   achivementsCards: [
     {
       title: 'Thailand Travel Guide Mobile App',
-      subtitle: 'A basic Thailand travel app built with React Native Expo.',
+      subtitle: 'Most detailed Thailand travel guide app in Turkish language. I built the app using React Native Expo & wrote all the content.',
       image: require('./assets/images/tgr-app.png'),
       thumbnail: require('./assets/images/tgr-app.png'),
       footerLink: [
@@ -176,13 +176,27 @@ const achievementSection = {
     {
       title: 'Thailand Travel Guide Web Site',
       subtitle:
-        'Most detailed Thailand travel guide in Turkish language. I developed the site with Wordpress, wrote all the content, did SEO.',
+        'Most detailed Thailand travel site in Turkish language. I developed the site with Wordpress, wrote all the content & did SEO.',
       image: require('./assets/images/tgr-web.png'),
       thumbnail: require('./assets/images/tgr-web-tn.png'),
       footerLink: [
         {
           name: 'Web',
           url: 'http://www.taylandgezi.com/',
+        },
+      ],
+    },
+
+    {
+      title: 'Thailand Travel Guide E-book',
+      subtitle:
+        'Most detailed Thailand travel guide book in Turkish language. I designed the book, cover, maps & wrote all the content ',
+      image: require('./assets/images/tgr-ebook.png'),
+      thumbnail: require('./assets/images/tgr-ebook-tn.png'),
+      footerLink: [
+        {
+          name: 'Google Play',
+          url: 'https://play.google.com/store/books/details/Keremcan_B%C3%BCy%C3%BCkta%C5%9Fk%C4%B1n_Tayland_Gezi_Rehberi?id=eK10BgAAQBAJ',
         },
       ],
     },

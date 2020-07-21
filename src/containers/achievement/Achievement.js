@@ -1,7 +1,7 @@
 import React from 'react';
-import './Achievement.css';
 import AchivementCard from '../../components/achievementCard/AchivementCard';
 import { achievementSection } from '../../portfolio';
+import './Achievement.css';
 
 const Achievement = () => {
   return (
@@ -19,6 +19,7 @@ const Achievement = () => {
           {achievementSection.achivementsCards.map((card) => {
             return (
               <AchivementCard
+                key={card.title}
                 cardInfo={{
                   title: card.title,
                   description: card.subtitle,
