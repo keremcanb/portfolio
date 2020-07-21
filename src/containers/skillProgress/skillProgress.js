@@ -3,9 +3,9 @@ import './Progress.css';
 import { techStack } from '../../portfolio';
 import { Fade } from 'react-reveal';
 
-export default function StackProgress() {
-  if (techStack.viewSkillBars) {
-    return (
+const StackProgress = () => {
+  return (
+    techStack.viewSkillBars && (
       <div className='skills-container'>
         <Fade left duration={1500}>
           <div className='skills-bar'>
@@ -28,11 +28,15 @@ export default function StackProgress() {
 
         <Fade right duration={1500}>
           <div className='skills-image'>
-            <img alt='Skills' src={require('../../assets/images/accept_tasks.svg')} />
+            <img
+              alt='Skills'
+              src={require('../../assets/images/accept_tasks.svg')}
+            />
           </div>
         </Fade>
       </div>
-    );
-  }
-  return null;
-}
+    )
+  );
+};
+
+export default StackProgress;

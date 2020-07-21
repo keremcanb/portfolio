@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Fade } from 'react-reveal';
 
-export default function Footer() {
+const Footer = () => {
   return (
     <Fade bottom duration={1000} distance='5px'>
       <div className='footer-div'>
@@ -10,4 +10,6 @@ export default function Footer() {
       </div>
     </Fade>
   );
-}
+};
+
+export default Footer;

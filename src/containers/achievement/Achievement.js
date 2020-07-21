@@ -1,15 +1,9 @@
 import React from 'react';
-// import { Fade } from 'react-reveal';
 import './Achievement.css';
 import AchivementCard from '../../components/achievementCard/AchivementCard';
 import { achievementSection } from '../../portfolio';
 
-export default function Achievement() {
-  // function openUrlInNewTab(url) {
-  //   var win = window.open(url, '_blank');
-  //   win.focus();
-  // }
-
+const Achievement = () => {
   return (
     <div className='main' id='achievements'>
       <div className='achievement-main-div'>
@@ -39,4 +33,6 @@ export default function Achievement() {
       </div>
     </div>
   );
-}
+};
+
+export default Achievement;

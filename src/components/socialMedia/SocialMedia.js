@@ -2,7 +2,7 @@ import React from 'react';
 import './SocialMedia.css';
 import { socialMediaLinks } from '../../portfolio';
 
-export default function socialMedia() {
+const socialMedia = () => {
   return (
     <div className='social-media-div'>
       {socialMediaLinks.github ? (
@@ -90,4 +90,6 @@ export default function socialMedia() {
       ) : null}
     </div>
   );
-}
+};
+
+export default socialMedia;
