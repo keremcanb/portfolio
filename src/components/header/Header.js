@@ -10,12 +10,12 @@ const Header = () => {
   return (
     // <Headroom>
     <header className='header'>
-      <a href='/' className='logo'>
-        <i className='fa fa-code' aria-hidden='true'></i>
+      {/* <a href='/' className='logo'> */}
+        <i className='fa fa-code logo' aria-hidden='true'></i>
         {/* <span className='grey-color'> &lt;</span>
         <span className='logo-name'>{greeting.username}</span>
         <span className='grey-color'>/&gt;</span> */}
-      </a>
+      {/* </a> */}
 
       <input className='menu-btn' type='checkbox' id='menu-btn' />
       <label className='menu-icon' htmlFor='menu-btn'>

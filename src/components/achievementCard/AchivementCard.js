@@ -1,5 +1,6 @@
 import React from 'react';
 import ModalImage from 'react-modal-image';
+import './AchievementCard.css';
 
 const AchivementCard = ({ cardInfo }) => {
   function openUrlInNewTab(url) {
@@ -15,7 +16,8 @@ const AchivementCard = ({ cardInfo }) => {
           large={cardInfo.image}
           alt='Projects'
           className='card-image'
-          hideDownload='false'
+          hideDownload='true'
+          hideZoom="true"
         />
       </div>
       <div className='certificate-detail-div'>
