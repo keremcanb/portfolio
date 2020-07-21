@@ -9,7 +9,6 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
-  height: 80vh;
 }
 
 .gretting-main {
@@ -78,6 +77,13 @@
 }
 
 /* Media Query */
+
+@media (min-width: 1380px) {
+  .greet-main {
+    height: 80vh;
+  }
+}
+
 @media (max-width: 1380px) and (min-width: 768px) {
   .greeting-text {
     font-size: 40px;
@@ -86,6 +92,9 @@
   .greeting-text-p {
     font-size: 20px;
     float: left;
+  }
+  .greet-main {
+    height: 80vh;
   }
 }
 @media (max-width: 768px) {
