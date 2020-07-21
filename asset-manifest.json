@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5e86a070.chunk.css",
-    "main.js": "/portfolio/static/js/main.4ba22916.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4ba22916.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7bca0d4a.chunk.css",
+    "main.js": "/portfolio/static/js/main.ba352b3a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ba352b3a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.b4a6ab1a.chunk.js": "/portfolio/static/js/2.b4a6ab1a.chunk.js",
-    "static/js/2.b4a6ab1a.chunk.js.map": "/portfolio/static/js/2.b4a6ab1a.chunk.js.map",
+    "static/js/2.2dd259fa.chunk.js": "/portfolio/static/js/2.2dd259fa.chunk.js",
+    "static/js/2.2dd259fa.chunk.js.map": "/portfolio/static/js/2.2dd259fa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1f6a253065e810fd2bb2a85d9cc876b5.js": "/portfolio/precache-manifest.1f6a253065e810fd2bb2a85d9cc876b5.js",
+    "precache-manifest.abd08032a5b0eb440911537b4514c73e.js": "/portfolio/precache-manifest.abd08032a5b0eb440911537b4514c73e.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5e86a070.chunk.css.map": "/portfolio/static/css/main.5e86a070.chunk.css.map",
-    "static/js/2.b4a6ab1a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b4a6ab1a.chunk.js.LICENSE.txt",
+    "static/css/main.7bca0d4a.chunk.css.map": "/portfolio/static/css/main.7bca0d4a.chunk.css.map",
+    "static/js/2.2dd259fa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2dd259fa.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/accept_tasks.svg": "/portfolio/static/media/accept_tasks.7c7e2c81.svg",
     "static/media/code_inspection.svg": "/portfolio/static/media/code_inspection.04cff595.svg",
@@ -20,13 +20,15 @@
     "static/media/tgr-admin-tn.png": "/portfolio/static/media/tgr-admin-tn.5a4f2db2.png",
     "static/media/tgr-admin.png": "/portfolio/static/media/tgr-admin.d0ff31d2.png",
     "static/media/tgr-app.png": "/portfolio/static/media/tgr-app.ec538895.png",
+    "static/media/tgr-ebook-tn.png": "/portfolio/static/media/tgr-ebook-tn.cda3242a.png",
+    "static/media/tgr-ebook.png": "/portfolio/static/media/tgr-ebook.c4d77389.png",
     "static/media/tgr-web-tn.png": "/portfolio/static/media/tgr-web-tn.90ffd1e4.png",
     "static/media/tgr-web.png": "/portfolio/static/media/tgr-web.9be6e299.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.b4a6ab1a.chunk.js",
-    "static/css/main.5e86a070.chunk.css",
-    "static/js/main.4ba22916.chunk.js"
+    "static/js/2.2dd259fa.chunk.js",
+    "static/css/main.7bca0d4a.chunk.css",
+    "static/js/main.ba352b3a.chunk.js"
   ]
 }
