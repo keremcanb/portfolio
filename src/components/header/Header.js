@@ -2,7 +2,7 @@ import React from 'react';
 // import Headroom from 'react-headroom';
 import Scrollchor from 'react-scrollchor';
 import './Header.css';
-import { greeting, workExperiences } from '../../portfolio';
+// import { greeting, workExperiences } from '../../portfolio';
 
 const Header = () => {
   // const exp = workExperiences.viewExperiences;

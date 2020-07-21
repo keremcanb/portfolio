@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill';
-import { skillsSection } from '../../portfolio';
+// import { skillsSection } from '../../portfolio';
 import { Fade } from 'react-reveal';
 
 const Skills = () => {
