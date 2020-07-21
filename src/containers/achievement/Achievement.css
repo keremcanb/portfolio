@@ -74,6 +74,9 @@
   .achievement-heading {
     font-size: 40px;
   }
+  .achievement-cards-div {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 @media (max-width: 768px) {
   .achievement-heading {
